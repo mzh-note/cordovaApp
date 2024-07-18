@@ -14,12 +14,16 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-android": "^13.0.0",
-    "cordova-browser": "^7.0.0"
+    "cordova-ios": "^5.0.0",
+    "cordova-plugin-wkwebview-engine": "^1.2.2"
   },
   "cordova": {
     "platforms": [
-      "browser",
-      "android"
-    ]
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-wkwebview-engine": {}
+    }
   }
 }

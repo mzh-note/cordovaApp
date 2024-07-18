@@ -1,22 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.mazhanghua.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>cordova</name>
+    <name>HelloCordova</name>
     <description>Sample Apache Cordova App</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
-        Apache Cordova Team
-    </author>
+    Apache Cordova Team
+  </author>
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <icon background="res/icon/android/ldpi.png" density="ldpi" foreground="res/icon/android/ldpi.png" monochrome="res/icon/android/ldpi.png" />
-    <icon background="res/icon/android/mdpi.png" density="mdpi" foreground="res/icon/android/mdpi.png" monochrome="res/icon/android/mdpi.png" />
-    <icon background="res/icon/android/xhdpi.png" density="hdpi" foreground="res/icon/android/hdpi.png" monochrome="res/icon/android/xhdpi.png" />
-    <icon background="res/icon/android/xhdpi.png" density="xhdpi" foreground="res/icon/android/xhdpi.png" monochrome="res/icon/android/xhdpi.png" />
-    <icon background="res/icon/android/xxhdpi.png" density="xxhdpi" foreground="res/icon/android/xxhdpi.png" monochrome="res/icon/android/xxhdpi.png" />
-    <icon background="res/icon/android/xxxhdpi.png" density="xxxhdpi" foreground="res/icon/android/xxxhdpi.png" monochrome="res/icon/android/xxxhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="AndroidWindowSplashScreenAnimationDuration" value="90000" />
-    <preference name="AndroidWindowSplashScreenBackground" value="#facfac" />
-    <preference name="AndroidWindowSplashScreenIconBackgroundColor" value="#f22f22" />
-    <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splash.png" />
 </widget>
